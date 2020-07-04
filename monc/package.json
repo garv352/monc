@@ -1,0 +1,21 @@
+{
+    "name": "monc",
+    "displayName": "monc",
+    "description": "Color theme for cool  developers",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "monc",
+                "uiTheme": "vs-dark",
+                "path": "./themes/monc-color-theme.json"
+            }
+        ]
+    }
+}
